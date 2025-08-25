@@ -1,7 +1,7 @@
 RTEK1000 Note:
 - The description below is originally from the [TimerInterrupt](https://github.com/khoih-prog/TimerInterrupt) repository (read-only).
 - - I added the [Timer1InterruptTest](https://github.com/rtek1000/TimerInterrupt/tree/master/examples/Timer1InterruptTest) entry.
-- - Added option for microsecond interval (    bool attachInterruptInterval_us(unsigned long interval, void (*callback)(TArg), TArg params, unsigned long duration = 0))
+- - Added option for microsecond interval ([attachInterruptInterval_us](https://github.com/rtek1000/TimerInterrupt/blob/a1a4dae7cd5de0af6f845775ec74dfec122ced66/src/TimerInterrupt.hpp#L306))
 - I may not be able to support questions or improvements, sorry.
 
 ## TimerInterrupt Library
