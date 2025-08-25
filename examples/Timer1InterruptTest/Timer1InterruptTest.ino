@@ -3,6 +3,7 @@
   For Arduino and Adadruit AVR 328(P) and 32u4 boards
   
   Created by: RTEK1000 (08-2025) based in TimerInterruptTest.ino (Written by Khoi Hoang)
+  - Shortened version of TimerInterruptTest.ino
 
   Built by Khoi Hoang https://github.com/khoih-prog/TimerInterrupt
   Licensed under MIT license
