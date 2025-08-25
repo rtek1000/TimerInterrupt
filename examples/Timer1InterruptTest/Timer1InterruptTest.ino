@@ -31,7 +31,8 @@
 
 unsigned int outputPin1 = 13;  // UNO LED_BUILTIN: 13
 
-#define TIMER1_INTERVAL_MS 500
+//#define TIMER1_INTERVAL_MS 500
+#define TIMER1_INTERVAL_US 500000
 
 void TimerHandler1(void) {
   static bool toggle1 = false;
@@ -46,7 +47,8 @@ void setup() {
   pinMode(outputPin1, OUTPUT);
 
   ITimer1.init();
-  ITimer1.attachInterruptInterval(TIMER1_INTERVAL_MS, TimerHandler1);
+  // ITimer1.attachInterruptInterval(TIMER1_INTERVAL_MS, TimerHandler1); // ms
+  ITimer1.attachInterruptInterval_us(TIMER1_INTERVAL_US, TimerHandler1); // us
 }
 
 void loop() {
