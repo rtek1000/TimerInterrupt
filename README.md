@@ -58,7 +58,7 @@ RTEK1000 Note:
   * [ 10. SwitchDebounce](examples/SwitchDebounce)
   * [ 11. TimerDuration](examples/TimerDuration)
   * [ 12. TimerInterruptTest](examples/TimerInterruptTest)
-  * [ 12a. Timer1InterruptTest](examples/Timer1InterruptTest)
+  * [ 12a. Timer1InterruptTest](examples/Timer1InterruptTest) **New**
   * [ 13. Change_Interval_HF](examples/Change_Interval_HF).
   * [ 14. Argument_Complex_Multi](examples/Argument_Complex_Multi). **New**
 * [Example ISR_16_Timers_Array_Complex](#example-isr_16_timers_array_complex)
