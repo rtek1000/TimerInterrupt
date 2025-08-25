@@ -1,5 +1,5 @@
 RTEK1000 Note:
-- Description below is original from repository [Timer1Interrupt](https://github.com/khoih-prog/TimerInterrupt) (Read only), added from [Timer1InterruptTest](https://github.com/rtek1000/TimerInterrupt/tree/master/examples/Timer1InterruptTest) entry, I may not be able to support questions or improvements, sorry.
+- Description below is original from repository [TimerInterrupt](https://github.com/khoih-prog/TimerInterrupt) (Read only), added from [Timer1InterruptTest](https://github.com/rtek1000/TimerInterrupt/tree/master/examples/Timer1InterruptTest) entry, I may not be able to support questions or improvements, sorry.
 
 ## TimerInterrupt Library
 
