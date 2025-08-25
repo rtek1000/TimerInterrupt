@@ -1,3 +1,6 @@
+RTEK1000 Note:
+- Description below is original from repository [Timer1Interrupt](https://github.com/khoih-prog/TimerInterrupt), added from Timer1InterruptTest entry, I may not be able to support questions or improvements.
+
 ## TimerInterrupt Library
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/TimerInterrupt.svg?)](https://www.ardu-badge.com/TimerInterrupt)
