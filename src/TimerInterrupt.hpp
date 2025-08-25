@@ -301,6 +301,20 @@ class TimerInterrupt
       return setFrequency( (float) ( 1000.0f / interval), reinterpret_cast<timer_callback_p> (callback), /*NULL*/ 0, duration);
     }
 
+    // Interval (in us) and duration (in microseconds). Duration = 0 or not specified => run indefinitely
+    template<typename TArg>
+    bool attachInterruptInterval_us(unsigned long interval, void (*callback)(TArg), TArg params, unsigned long duration = 0)
+    {
+      static_assert(sizeof(TArg) <= sizeof(uint32_t), "attachInterruptInterval() callback argument size must be <= 4 bytes");
+      return setFrequency( (float) ( 1000.0f / interval), reinterpret_cast<timer_callback_p>(callback), (uint32_t) params, duration);
+    }
+
+    // Interval (in us) and duration (in microseconds). Duration = 0 or not specified => run indefinitely
+    bool attachInterruptInterval_us(unsigned long interval, timer_callback callback, unsigned long duration = 0)
+    {
+      return setFrequency( (float) ( 1000000.0f / interval), reinterpret_cast<timer_callback_p> (callback), /*NULL*/ 0, duration);
+    }
+
     void detachInterrupt();
 
     void disableTimer()
